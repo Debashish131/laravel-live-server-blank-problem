@@ -1,0 +1,14 @@
+When I try to use GMail SMTP for sending email via Laravel, I encounter the following error:
+
+Swift_TransportException
+
+Connection could not be established with host smtp.gmail.com [Connection timed out #110]
+
+
+
+
+I had the same problem and I resolved it in this way:
+
+'driver' => 'sendmail',
+
+You need to change only that line.
