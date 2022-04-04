@@ -10,5 +10,6 @@ Connection could not be established with host smtp.gmail.com [Connection timed o
 I had the same problem and I resolved it in this way:
 
 'driver' => 'sendmail',
+In .env file
 
 You need to change only that line.
