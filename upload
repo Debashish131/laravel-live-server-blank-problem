@@ -1,0 +1,7 @@
+first zip the project
+then upzip in server
+then move all public to main site
+then edit index file (remove /.../)
+then add database
+import data 
+voila !
